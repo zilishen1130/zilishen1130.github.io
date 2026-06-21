@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conference Presentations — Zili Shen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="about.html" class="nav__name">Zili Shen<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="about.html">about</a>
+      <a href="experience.html">experience</a>
+      <a href="publication.html" class="is-active">publication</a>
+      <a href="work.html">work</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </nav>
+
+  <main class="page reveal">
+    <p class="eyebrow">Conference Presentations</p>
+    <h2 class="page-title">Presentations<span class="dot">.</span></h2>
+    <svg class="lily-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(60 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(120 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(180 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(240 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(300 24 24)"/>
+      <circle cx="24" cy="24" r="2.3" fill="currentColor" stroke="none"/>
+    </svg>
+    <p class="lead">Accepted and upcoming conference papers, 2026–2027.</p>
+
+    <div class="entry">
+      <span class="entry__year">2027</span>
+      <div><h3 class="entry__title">Algorithmic Gender Discrimination and the Dialectics of Micro-Resistance in China's Platform Economy</h3>
+        <p class="entry__meta"><span class="entry__venue">URPE @ ASSA: Union for Radical Political Economics, ASSA Annual Meeting</span>. Washington, DC, USA.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">Algorithmic Gender Discrimination and the Dialectics of Micro-Resistance in China's Platform Economy</h3>
+        <p class="entry__meta"><span class="entry__venue">NWSA: 46th Annual Conference of the National Women's Studies Association</span>. Atlanta, USA.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">A "Room of One's Own" via the Cloud? The Paradox of Agency in Chinese Platform-Mediated Domestic Work</h3>
+        <p class="entry__meta"><span class="entry__venue">NWSA: 46th Annual Conference of the National Women's Studies Association</span>. Atlanta, USA.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">Survival in the Ruins of Romance: Disillusionment, Harsh Care, and Feminist Sisterhood in China</h3>
+        <p class="entry__meta"><span class="entry__venue">EASA: European Association of Social Anthropologists Biennial Conference</span>. Poznań, Poland.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">Grammar of Compromised Resistance: Affective Language and Digital Agency in East Asian AI Companionship</h3>
+        <p class="entry__meta"><span class="entry__venue">ESA: 17th Conference of the European Sociological Association</span>. Warsaw, Poland.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">A Room of One's Own via the Cloud? The Paradox of Agency in Platform-Mediated Domestic Work</h3>
+        <p class="entry__meta"><span class="entry__venue">ACWS: Asian Center for Women's Studies International Conference</span>. Seoul, South Korea.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">The Paradox of Female Agency within the Simulated Emotional Supply System in Contemporary China</h3>
+        <p class="entry__meta"><span class="entry__venue">#SMSociety: International Conference on Social Media &amp; Society</span>. Glasgow, UK.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2026</span>
+      <div><h3 class="entry__title">Algorithmic Traces: Gender Discrimination and the Trajectory of Capital in China's Platform Economy</h3>
+        <p class="entry__meta"><span class="entry__venue">ASU EASGrad: East Asian Studies Graduate Conference</span>. Tempe, USA.</p></div>
+    </div>
+  </main>
+
+  <footer class="foot">&copy; 2026 Zili Shen <span class="dot">&middot;</span> built with HTML &amp; CSS <span class="dot">&middot;</span> GitHub Pages</footer>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Zili Shen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="about.html" class="nav__name">Zili Shen<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="about.html" class="is-active">about</a>
+      <a href="experience.html">experience</a>
+      <a href="publication.html">publication</a>
+      <a href="work.html">work</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </nav>
+
+  <main class="page reveal">
+    <p class="eyebrow">About</p>
+    <h2 class="page-title">Zili Shen<span class="dot">.</span></h2>
+    <svg class="lily-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(60 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(120 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(180 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(240 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(300 24 24)"/>
+      <circle cx="24" cy="24" r="2.3" fill="currentColor" stroke="none"/>
+    </svg>
+
+    <figure class="feature-img">
+      <!-- Your photo of the Three Gorges, standing in for a portrait. -->
+      <img src="images/sanxia.jpg" alt="The Three Gorges in mist" />
+      <figcaption>The Three Gorges</figcaption>
+    </figure>
+
+    <p class="label">Education</p>
+    <ul class="edu">
+      <li>M.A. Women's &amp; Gender Studies &middot; M.S. Information Studies<br /><span class="where">The University of Texas at Austin &middot; dual degree, full funding &middot; 2028 (expected)</span></li>
+      <li>B.A., Economics<br /><span class="where">Nankai University &middot; 2025</span></li>
+      <li>Bashu High School<br /><span class="where">2021</span></li>
+    </ul>
+
+    <div class="prose" style="margin-top:2.6rem;">
+      <p>As a Marxist feminist, my research lies at the intersection of technology and gender, combining qualitative and computational methods. I'm currently studying how platform capitalism reshapes gender, intimacy, and labor, especially in China and East Asia, and the small, improvised tactics of resistance people work out inside these systems.</p>
+
+      <p>I was born in a county nestled in the mountains where Chongqing, Shaanxi, and Hubei meet. Its name carries the character <em>w&#363;</em> (&#24043;), meaning shaman or diviner, and that old, mist-soaked lineage of the southwest has never quite left me. I spent my early years there, among steep green hills and the waters of the Yangtze. Though I've now lived in cities longer than I lived among those hills, the memory of being a marginal person, an outsider, keeps reshaping me in different forms. It sharpens my interest in social stratification and mobility, and calls back, every so often, the misty rain of the Three Gorges I still hold in memory.</p>
+
+      <p>Most of my friends call me by the last character of my name, L&igrave;l&igrave; (&#21147;&#21147;). In Chinese, &#21147; (l&igrave;) means <em>power</em>, a character seldom given to girls. It also sounds almost exactly like &ldquo;Lily,&rdquo; and there&rsquo;s a roundabout little logic I&rsquo;m fond of in that: the Chinese word for lily, <em>b&#462;ih&eacute;</em> (&#30334;&#21512;), is also the word for love between women. So the flower found its way to me sideways, through two languages.</p>
+    </div>
+  </main>
+
+  <footer class="foot">&copy; 2026 Zili Shen <span class="dot">&middot;</span> built with HTML &amp; CSS <span class="dot">&middot;</span> GitHub Pages</footer>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>

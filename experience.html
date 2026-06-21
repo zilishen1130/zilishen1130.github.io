@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience — Zili Shen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="about.html" class="nav__name">Zili Shen<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="about.html">about</a>
+      <a href="experience.html" class="is-active">experience</a>
+      <a href="publication.html">publication</a>
+      <a href="work.html">work</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </nav>
+
+  <main class="page reveal">
+    <p class="eyebrow">Experience</p>
+    <h2 class="page-title">Experience<span class="dot">.</span></h2>
+    <svg class="lily-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(60 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(120 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(180 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(240 24 24)"/>
+      <path d="M24 25 C20 17 20 10 24 5 C28 10 28 17 24 25 Z" transform="rotate(300 24 24)"/>
+      <circle cx="24" cy="24" r="2.3" fill="currentColor" stroke="none"/>
+    </svg>
+
+    <p class="lead">Beyond scholarship, I'm exploring what it means to be an activist: a way of changing society through practice, not only through analysis.</p>
+
+    <h3 class="subhead">Teaching</h3>
+    <div class="entry">
+      <span class="entry__year">2025–now</span>
+      <div><h3 class="entry__title">Teaching Assistant, Introduction to Women's &amp; Gender Studies</h3>
+        <p class="entry__meta"><span class="entry__org">UT Austin</span></p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2023–25</span>
+      <div><h3 class="entry__title">Teaching Assistant, Advanced English</h3>
+        <p class="entry__meta"><span class="entry__org">School of Foreign Studies, Nankai University</span></p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2022</span>
+      <div><h3 class="entry__title">Volunteer Teacher</h3>
+        <p class="entry__meta"><span class="entry__org">BreakCSE Comprehensive Sexuality Education Program, Henan</span></p></div>
+    </div>
+
+    <h3 class="subhead">Professional</h3>
+    <div class="entry">
+      <span class="entry__year">2023–24</span>
+      <div><h3 class="entry__title">Research Intern</h3>
+        <p class="entry__meta"><span class="entry__org">Women Alliance Group, Shanghai</span>. Co-produced the DEI report <em>Surviving the Storm, Moving Forward with Resilience</em>; translated Lindsey Pollak's <em>The Remix</em> (EN→ZH, forthcoming); supported DEI workshop design.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2023–now</span>
+      <div><h3 class="entry__title">Treasurer</h3>
+        <p class="entry__meta"><span class="entry__org">Education without Barriers</span>. Managed budgeting and reporting; helped grow funding by $3,000+; built partnerships with children's homes and hospitals in Qingdao serving 100+ students.</p></div>
+    </div>
+    <div class="entry">
+      <span class="entry__year">2023–now</span>
+      <div><h3 class="entry__title">Editor-in-Chief</h3>
+        <p class="entry__meta"><span class="entry__org">Trans, Chuansi</span>. Wrote and edited public writing on gender and sexuality from interviews with trans, asexual, and other sexual-minority participants; 10+ articles, 30,000+ total reads.</p></div>
+    </div>
+  </main>
+
+  <footer class="foot">&copy; 2026 Zili Shen <span class="dot">&middot;</span> built with HTML &amp; CSS <span class="dot">&middot;</span> GitHub Pages</footer>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
