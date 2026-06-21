@@ -144,6 +144,7 @@ a:hover { color: var(--accent-deep); }
 .splash__frame img { display: block; width: 100%; height: auto; }
 .splash__marquee { width: 100%; overflow: hidden; white-space: nowrap; -webkit-mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
 .splash__marquee span { display: inline-block; font-family: var(--body); font-style: normal; font-size: clamp(1.2rem, 2.8vw, 1.7rem); color: var(--ink-soft); letter-spacing: 0.02em; animation: marq 28s linear infinite; }
+.splash__quote { font-family: var(--body); font-size: clamp(1.15rem, 2.8vw, 1.65rem); color: var(--ink); text-align: center; max-width: 34rem; margin: 0; line-height: 1.7; }
 .enter { font-family: var(--display); letter-spacing: 0.34em; font-size: 1.05rem; text-transform: uppercase; color: var(--ink); border-bottom: 1px solid var(--accent); padding: 0 2px 5px; transition: color 0.2s ease; }
 .enter:hover { color: var(--accent); }
 @keyframes marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
