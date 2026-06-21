@@ -66,6 +66,7 @@ a:hover { color: var(--accent-deep); }
 }
 .nav__name { font-family: var(--display); font-weight: 600; font-size: 1.4rem; letter-spacing: 0.01em; color: var(--ink); }
 .nav__name .dot { color: var(--accent); }
+.nav__zh { font-family: var(--display); font-size: 0.66em; font-weight: 400; letter-spacing: 0.03em; color: var(--ink-soft); margin-left: 0.5em; }
 .nav__links { display: flex; flex-wrap: wrap; gap: clamp(0.8rem, 2.4vw, 1.8rem); font-family: var(--display); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em; }
 .nav__links a { color: var(--ink-soft); padding-bottom: 2px; }
 .nav__links a:hover { color: var(--accent); }
