@@ -143,7 +143,7 @@ a:hover { color: var(--accent-deep); }
 .splash__frame { width: 100%; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; box-shadow: 0 18px 50px rgba(43,142,214,0.12); }
 .splash__frame img { display: block; width: 100%; height: auto; }
 .splash__marquee { width: 100%; overflow: hidden; white-space: nowrap; -webkit-mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
-.splash__marquee span { display: inline-block; font-family: var(--body); font-style: italic; font-size: clamp(1.2rem, 2.8vw, 1.7rem); color: var(--ink-soft); letter-spacing: 0.02em; animation: marq 28s linear infinite; }
+.splash__marquee span { display: inline-block; font-family: var(--body); font-style: normal; font-size: clamp(1.2rem, 2.8vw, 1.7rem); color: var(--ink-soft); letter-spacing: 0.02em; animation: marq 28s linear infinite; }
 .enter { font-family: var(--display); letter-spacing: 0.34em; font-size: 1.05rem; text-transform: uppercase; color: var(--ink); border-bottom: 1px solid var(--accent); padding: 0 2px 5px; transition: color 0.2s ease; }
 .enter:hover { color: var(--accent); }
 @keyframes marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
